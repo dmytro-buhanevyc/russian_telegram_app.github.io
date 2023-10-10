@@ -10,7 +10,7 @@ image: cutting.jpg
 
 <style>
     .iframe-container {
-        width: 80%;       /* Setting width to 80% of parent's width */
+        width: 100%;       /* Setting width to 80% of parent's width */
         margin: 0 auto;  /* Centering the container */
         overflow: hidden; /* In case the iframe content spills over */
     }
