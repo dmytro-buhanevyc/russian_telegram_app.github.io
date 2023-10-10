@@ -113,8 +113,8 @@
 }
 
 .wide-visualization {
-  width: 360vw;  /* or set to a fixed width like 800px, as you prefer */
-  max-width: 370vw;  /* Ensuring it doesn't go beyond the viewport */
+  width: 800px;  /* or set to a fixed width like 800px, as you prefer */
+  max-width: 859px;  /* Ensuring it doesn't go beyond the viewport */
   margin-left: auto;
   margin-right: auto;
   overflow-x: auto; /* This ensures if content gets wider than container, it will be scrollable */
