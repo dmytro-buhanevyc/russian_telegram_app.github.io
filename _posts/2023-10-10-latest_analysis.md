@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Your Post Title"
-author: "Your Name"
+title: "Russia Telegram Analysis"
+author: "Dmytro Bukhanevych"
 categories: your_category
 tags: [your_tags]
 image: mountains.jpg
