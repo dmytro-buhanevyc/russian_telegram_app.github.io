@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Plotly Visualization</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+<body>
+<div id="plotly-div"></div>
+
+<script>
+    fetch('fig_topics_time.json')
+        .then(response => response.json())
+        .then(data => {
+            Plotly.newPlot('plotly-div', data.data, data.layout);
+        });
+</script>
+</body>
+</html>
