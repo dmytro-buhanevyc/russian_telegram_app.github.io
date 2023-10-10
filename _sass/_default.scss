@@ -111,10 +111,4 @@
   font-family: $sans-serif-font-family;
   font-size:0.8rem;
 }
-.wide-visualization-container {
-  width: 80%;   /* Span 80% of the parent width */
-  margin-left: 10%;   /* Margin to center the visualization */
-  margin-right: 10%;  /* Margin to center the visualization */
-  overflow-x: auto;  /* Allows horizontal scrolling if content gets wider than container */
-  max-width: none;   /* This overrides the maximum width set by other styles */
-}
+

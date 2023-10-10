@@ -79,10 +79,3 @@ th, td {
   text-align: left;
 }
 
-.wide-visualization-container {
-  width: 80%;   /* Span 80% of the parent width */
-  margin-left: 10%;   /* Margin to center the visualization */
-  margin-right: 10%;  /* Margin to center the visualization */
-  overflow-x: auto;  /* Allows horizontal scrolling if content gets wider than container */
-  max-width: none;   /* This overrides the maximum width set by other styles */
-}
