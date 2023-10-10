@@ -4,7 +4,8 @@ title: "Your Post Title"
 author: "Your Name"
 categories: your_category
 tags: [your_tags]
-image: your_image.jpg
+image: mountains.jpg
+
 ---
 
 ... Your content ...
