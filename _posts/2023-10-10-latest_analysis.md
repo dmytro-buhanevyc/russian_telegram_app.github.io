@@ -4,7 +4,7 @@ title: "Russia Telegram Analysis"
 author: "Dmytro Bukhanevych"
 categories: your_category
 tags: [your_tags]
-image: mountains.jpg
+image: kandinsky.jpg
 
 ---
 
