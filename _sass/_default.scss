@@ -111,3 +111,11 @@
   font-family: $sans-serif-font-family;
   font-size:0.8rem;
 }
+
+.wide-visualization {
+  width: 90vw;  /* or set to a fixed width like 800px, as you prefer */
+  max-width: 95vw;  /* Ensuring it doesn't go beyond the viewport */
+  margin-left: auto;
+  margin-right: auto;
+  overflow-x: auto; /* This ensures if content gets wider than container, it will be scrollable */
+}
