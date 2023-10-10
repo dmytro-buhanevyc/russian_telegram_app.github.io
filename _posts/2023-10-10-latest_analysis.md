@@ -12,9 +12,10 @@ image: mountains.jpg
 
 <!-- Embedding Plotly Visualization -->
 <!-- Embedding Plotly Visualization -->
-<iframe src="/visualizations/fig_topics_time.html" width="100%" height="500"></iframe>
+<!-- Embedding Plotly Visualization -->
+<iframe src="{{ site.baseurl }}/visualizations/fig_topics_time.html" width="100%" height="500"></iframe>
 
 <!-- Embedding the DataFrame table -->
-<iframe src="/tables/dataframe_table.html" width="100%" height="500"></iframe>
+<iframe src="{{ site.baseurl }}/visualizations/dataframe_table.html" width="100%" height="500"></iframe>
 
 ... Rest of your content ...
