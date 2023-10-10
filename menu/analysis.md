@@ -1,5 +1,6 @@
 ---
 layout: archive
 title: Writing
-permalink: /writing
+permalink: /analysis
 ---
+{% post_url 2023-10-10-latest_analysis %}
