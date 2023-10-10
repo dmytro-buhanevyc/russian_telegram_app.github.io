@@ -78,3 +78,10 @@ th, td {
   padding: 15px;
   text-align: left;
 }
+
+.wide-visualization-container {
+  width: 80vw; /* This will make it span 80% of the viewport width */
+  margin-left: 10vw; /* Centering by setting the left margin to 10% */
+  margin-right: 10vw; /* Centering by setting the right margin to 10% */
+  overflow-x: auto; /* This ensures if content gets wider than container, it will be scrollable */
+}
