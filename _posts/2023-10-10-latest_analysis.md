@@ -32,7 +32,7 @@ image: cutting.jpg
 </div>
 
 <div class="wide-visualization-container">
-    <iframe src="{{ site.baseurl }}/visualizations/specific_visualization.html" height="800"></iframe>
+    <iframe src="{{ site.baseurl }}/visualizations/fig_topics_time.html" height="800"></iframe>
 </div>
 
 
