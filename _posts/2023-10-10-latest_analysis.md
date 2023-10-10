@@ -10,21 +10,14 @@ image: cutting.jpg
 
 <style>
     .iframe-container {
-        width: 95%;
-        margin: 0 auto;
-        overflow: hidden;
+        width: 80%;       /* Setting width to 80% of parent's width */
+        margin: 0 auto;  /* Centering the container */
+        overflow: hidden; /* In case the iframe content spills over */
     }
-    .container, .post-content, .content-area {
-        max-width: 100%;
-        padding: 0;
-    }
-    .iframe-container {
-        width: 100vw;     /* 100% of the viewport's width */
-        position: relative;
-        left: 50%;
-        right: 50%;
-        margin-left: -50vw;
-        margin-right: -50vw;
+
+    .iframe-container iframe {
+        width: 100%;     /* Making the iframe take the full width of its container */
+        border: none;    /* Removing any borders from the iframe */
     }
 </style>
 
