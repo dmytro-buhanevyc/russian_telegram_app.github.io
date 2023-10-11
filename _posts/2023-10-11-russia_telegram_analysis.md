@@ -20,5 +20,5 @@ image: cutting.jpg
 </style>
 <!-- Embedding Plotly Visualization -->
 <div class="wide-iframe-container">
-    <iframe src="{{site.baseurl}}/visualizations/fig_topics_time_2023-10-11.html" height="800"></iframe>
+    <iframe src="{{site.baseurl}}/visualizations/russia_session_2023-10-11/fig_topics_time_2023-10-11.html" height="800"></iframe>
 </div>
