@@ -30,7 +30,7 @@ image: cutting.jpg
 <!-- Embedding Plotly Visualization -->
 <!-- Using the iframe container -->
 <div class="wide-iframe-container">
-    <iframe src="{{ site.baseurl }}/visualizations/fig_topics_time.html" height="800"></iframe>
+    <iframe src="{{ site.baseurl }}/visualizations/2023-10-11/fig_topics_time.html" height="800"></iframe>
 </div>
 
 
