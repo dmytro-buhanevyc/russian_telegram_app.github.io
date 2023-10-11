@@ -10,18 +10,15 @@ Our Telegram data analysis begins with the systematic scraping of designated Tel
 
 <!-- Embedding Main Plotly Visualization -->
 <div class="wide-iframe-container">
-    <iframe src="{{ site.baseurl }}/visualizations/2023-10-11/fig_pie_subs.html" width="100%" height="800" frameborder="0"></iframe>
+    <iframe src="{{ site.baseurl }}/visualizations/2023-10-11/fig_pie_subs.html" width="100%" height="830" frameborder="0"></iframe>
 </div>
 
 
 The next phase involves the application of clusterization algorithms to group similar data, ensuring that related information is categorized correctly. The central component of this process is the utilization of the spatial clustering algorithm to group similar texts. The method is chosen for its proficiency in identifying clusters of varying shapes and sizes in large datasets.
 
-<img src='https://i.pinimg.com/originals/bb/3d/5e/bb3d5e522cbcb2dd07a81f8118de2041.gif' alt='Description of GIF' />
+<img src='https://i.pinimg.com/originals/bb/3d/5e/bb3d5e522cbcb2dd07a81f8118de2041.gif' alt='DBSCAN visualization' />
 
-<div class="gif-container">
-    <!-- Local DBSCAN Clustering Gif -->
-    <img src="{{ site.baseurl }}/visualizations/2023-10-11/dbscan_simulation.gif" alt="DBSCAN Clustering GIF" />
-</div>
+
 
 
 For topic modeling, we employ a combination of n-grams and more advanced Natural Language Processing techniques. This allows us to discern overarching themes and recurring topics within the vast volume of content generated in Telegram channels.
