@@ -8,16 +8,15 @@ Our Telegram data analysis begins with the systematic scraping of designated Tel
 
 
 <div class="image-container">
-    <img src="{{ site.baseurl }}/visualizations/{{ formatted_date }}/fig_pie_subs.png" alt="Pie Subs Description" />
+    <img src="{{ site.baseurl }}/visualizations/2023-10-11/fig_pie_subs.png" alt="Pie Subs Description" />
 </div>
 
 
 The next phase involves the application of clusterization algorithms to group similar data, ensuring that related information is categorized correctly. The central component of this process is the utilization of the spatial clustering algorithm to group similar texts. The method is chosen for its proficiency in identifying clusters of varying shapes and sizes in large datasets.
 
 <div class="gif-container">
-    <img src="https://dashee87.github.io/data%20science/general/Clustering-with-Scikit-with-GIFs" alt="Description of GIF" />
+    <img src="{{ site.baseurl }}/assets/images/clustering.gif" alt="Clustering process" />
 </div>
-
 For topic modeling, we employ a combination of n-grams and more advanced Natural Language Processing techniques. This allows us to discern overarching themes and recurring topics within the vast volume of content generated in Telegram channels.
 
 Additionally, sentiment analysis techniques are deployed to gauge the tone and sentiment of the content.
