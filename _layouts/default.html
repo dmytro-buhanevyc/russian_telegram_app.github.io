@@ -19,12 +19,11 @@
           }
       }
 
-      function updateClusterText() {
-          // get the selected cluster from the dropdown
-          var selectedCluster = document.getElementById("clusterDropdown").value;
-          // update the content of the displayedClusterText div based on the selected cluster
-          document.getElementById("displayedClusterText").innerHTML = clusterData[selectedCluster];
-      }
+      function displayClusterText() {
+        let dropdown = document.getElementById("clusterDropdown");
+        let selectedValue = dropdown.options[dropdown.selectedIndex].value;
+        document.getElementById("displayedClusterText").innerHTML = clusterData[selectedValue];
+    }
     </script>
   </body>
 </html>
