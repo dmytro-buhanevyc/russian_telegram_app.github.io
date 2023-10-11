@@ -8,7 +8,7 @@ Our Telegram data analysis begins with the systematic scraping of designated Tel
 
 
 <div class="image-container">
-    <img src="{{ site.baseurl }}/visualizations/2023-10-11/fig_pie_subs.html" alt="Pie Subs Description" />
+    <img src="{{ site.baseurl }}/visualizations/2023-10-11/fig_pie_subs.png" alt="Pie Subs Description" />
 </div>
 
 
