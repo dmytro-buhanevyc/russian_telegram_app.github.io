@@ -18,8 +18,13 @@
               x.style.display = "none";
           }
       }
-      </script>
-      
+
+      function updateClusterText() {
+          // get the selected cluster from the dropdown
+          var selectedCluster = document.getElementById("clusterDropdown").value;
+          // update the content of the displayedClusterText div based on the selected cluster
+          document.getElementById("displayedClusterText").innerHTML = clusterData[selectedCluster];
+      }
+    </script>
   </body>
-  
 </html>
