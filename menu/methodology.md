@@ -19,7 +19,10 @@ The next phase involves the application of clusterization algorithms to group si
 <img src='https://i.pinimg.com/originals/bb/3d/5e/bb3d5e522cbcb2dd07a81f8118de2041.gif' alt='DBSCAN visualization' />
 
 
-For topic modeling, we employ a combination of n-grams and more advanced Natural Language Processing techniques. This allows us to discern overarching themes and recurring topics within the vast volume of content generated in Telegram channels.
+For topic modeling, we employ a combination of n-grams and more advanced Natural Language Processing techniques. This allows us to discern overarching themes and recurring topics within the vast volume of content generated in Telegram channels. As an example of each topic we provide the 'central' text, one that has the lowest Euclidean distance to all neighbours in its designated cluster.
+
+<img src='https://miro.medium.com/v2/resize:fit:1274/1*Nx6IyGfRAV1ly6uDGnVCxQ.gif alt='Euclidean distance' />
+
 
 Additionally, sentiment analysis techniques are deployed to gauge the tone and sentiment of the content.
 
