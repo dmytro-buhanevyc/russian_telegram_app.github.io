@@ -7,6 +7,8 @@ permalink: /methodology
 Our Telegram data analysis begins with the systematic scraping of designated Telegram channels to gather relevant data. Once this raw data is procured, it undergoes preprocessing to ensure its relevance and integrity.
 
 
+
+<!-- Embedding Main Plotly Visualization -->
 <div class="wide-iframe-container">
     <iframe src="{{ site.baseurl }}/visualizations/2023-10-11/fig_pie_subs.html" width="100%" height="600" frameborder="0"></iframe>
 </div>
