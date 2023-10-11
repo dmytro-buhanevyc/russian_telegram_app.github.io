@@ -31,16 +31,9 @@ image: cards.jpg
 <div class="wide-iframe-container">
     <iframe src="{{site.baseurl}}/visualizations/2023-10-11/fig_topics_time.html" height="800"></iframe>
 </div>
-<nav class="dropdown">
-  <a href="#">Cluster texts</a>
-  <ul class="dropdown-menu">
-    <li>
-      <a href="#">Item 1</a>
-      <div class="show-content">This is the additional text for Item 1.</div>
-    </li>
-    <li>
-      <a href="#">Item 2</a>
-      <div class="show-content">This is the additional text for Item 2.</div>
-    </li>
-  </ul>
-</nav>
+<div class="toggle-container">
+  <h2 class="toggle-header">Cluster texts</h2>
+  <div class="toggle-content">
+    <p>This is the additional text for Cluster texts.</p>
+  </div>
+</div>
