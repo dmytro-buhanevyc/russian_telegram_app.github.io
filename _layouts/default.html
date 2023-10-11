@@ -10,14 +10,13 @@
       {% include footer.html %}
     </div>
     <script>
-      function toggleContent(elementId) {
-          var x = document.getElementById(elementId);
-          if (x.style.display === "none") {
-              x.style.display = "block";
-          } else {
-              x.style.display = "none";
-          }
+      function displayClusterText() {
+          let dropdown = document.getElementById("clusterDropdown");
+          let textDiv = document.getElementById("displayedClusterText");
+          textDiv.innerHTML = dropdown.value;
       }
+      // Populate the initial text when the page loads
+      window.onload = displayClusterText;
       </script>
       
   </body>
