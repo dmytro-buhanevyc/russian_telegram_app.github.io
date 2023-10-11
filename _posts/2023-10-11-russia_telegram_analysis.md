@@ -32,9 +32,15 @@ image: cards.jpg
     <iframe src="{{site.baseurl}}/visualizations/2023-10-11/fig_topics_time.html" height="800"></iframe>
 </div>
 <nav class="dropdown">
-  <a href="#">Dropdown</a>
+  <a href="#">Cluster texts</a>
   <ul class="dropdown-menu">
-    <li><a href="#">Item 1</a></li>
-    <li><a href="#">Item 2</a></li>
+    <li>
+      <a href="#">Item 1</a>
+      <div class="show-content">This is the additional text for Item 1.</div>
+    </li>
+    <li>
+      <a href="#">Item 2</a>
+      <div class="show-content">This is the additional text for Item 2.</div>
+    </li>
   </ul>
 </nav>
