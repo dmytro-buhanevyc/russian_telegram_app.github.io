@@ -33,16 +33,11 @@ image: pawel-czerwinski-LS0CWcXo1dw-unsplash.jpg
 </div>
 <!-- Toggle mechanism for the second graph: Line Total -->
 <button onclick="toggleContent('lineTotalContent')">Click to show/hide Line Total</button>
-<div id="lineTotalContent" style="display:none;" class="wide-iframe-container">
+<div id="lineTotalContent" style="display:none;" class="container"> <!-- added the container class here -->
     <iframe src="{{site.baseurl}}/visualizations/2023-10-11/fig_line_total.png" height="800"></iframe>
 </div>
-<!-- Toggle mechanism for the third graph: Heatmap -->
-<button onclick="toggleContent('heatmapContent')">Click to show/hide Heatmap</button>
-<div id="heatmapContent" style="display:none;" class="wide-iframe-container">
+<!-- Toggle mechanism for the second graph: Line Total -->
+<button onclick="toggleContent('lineTotalContent')">Click to show/hide Line Total</button>
+<div id="lineTotalContent" style="display:none;" class="container"> <!-- added the container class here -->
     <iframe src="{{site.baseurl}}/visualizations/2023-10-11/fig_heatmap.png" height="800"></iframe>
-</div>
-<!-- Toggle mechanism for the fourth graph: Pie Chart -->
-<button onclick="toggleContent('pieContent')">Click to show/hide Pie Chart</button>
-<div id="pieContent" style="display:none;" class="wide-iframe-container">
-    <iframe src="{{site.baseurl}}/visualizations/2023-10-11/fig_pie.png" height="800"></iframe>
 </div>
