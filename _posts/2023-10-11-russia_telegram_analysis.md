@@ -31,9 +31,9 @@ image: cards.jpg
 <div class="wide-iframe-container">
     <iframe src="{{site.baseurl}}/visualizations/2023-10-11/fig_topics_time.html" height="800"></iframe>
 </div>
-<div class="toggle-container">
-  <h2 class="toggle-header">Cluster texts</h2>
-  <div class="toggle-content">
-    <p>This is the additional text for Cluster texts.</p>
-  </div>
-</div>
+<script type="text/javascript">
+    function toggleClusterText(label) {
+        var textDiv = document.getElementById('clusterText' + label);
+        textDiv.classList.toggle('hidden');
+    }
+</script>
