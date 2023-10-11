@@ -4,7 +4,7 @@ title: "Russia Telegram Analysis - 2023-10-11"
 author: "Dmytro Bukhanevych"
 categories: analysis
 tags: [telegram, analysis]
-image: cutting.jpg
+image: pawel-czerwinski-W_mfoOi1Elc-unsplash.jpg
 ---
 <style>
     /* Adjusting iframe-container styles */
@@ -30,14 +30,4 @@ image: cutting.jpg
 <!-- Embedding Main Plotly Visualization -->
 <div class="wide-iframe-container">
     <iframe src="{{site.baseurl}}/visualizations/2023-10-11/fig_topics_time.html" height="800"></iframe>
-</div>
-<!-- Toggle mechanism for the second graph: Line Total -->
-<button onclick="toggleContent('lineTotalContent')">Click to show/hide Line Total</button>
-<div id="lineTotalContent" style="display:none;" class="container"> <!-- added the container class here -->
-    <iframe src="{{site.baseurl}}/visualizations/2023-10-11/fig_line_total.png" height="800"></iframe>
-</div>
-<!-- Toggle mechanism for the second graph: Line Total -->
-<button onclick="toggleContent('lineTotalContent')">Click to show/hide Line Total</button>
-<div id="lineTotalContent" style="display:none;" class="container"> <!-- added the container class here -->
-    <iframe src="{{site.baseurl}}/visualizations/2023-10-11/fig_heatmap.png" height="800"></iframe>
 </div>
