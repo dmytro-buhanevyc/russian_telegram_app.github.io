@@ -4,7 +4,7 @@ title: "Russia Telegram Analysis - 2023-10-11"
 author: "Dmytro Bukhanevych"
 categories: analysis
 tags: [telegram, analysis]
-image: mountains.jpg
+image: forest.jpg
 ---
 <style>
     /* Adjusting iframe-container styles */
@@ -54,7 +54,7 @@ image: mountains.jpg
         let selectedValue = dropdown.value;
         textDiv.innerHTML = clusterData[selectedValue];
     }
-    // Call the function once to set the initial text
-    updateClusterText();
+    // Call the function once to display the default text
+    window.onload = updateClusterText;
 </script>
 
