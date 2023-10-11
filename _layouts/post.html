@@ -24,14 +24,4 @@ layout: default
 {% endif %}
 {% if site.data.settings.disqus.comments %}
   {% include disqus.html %}
-  <script>
-    function toggleContent(elementId) {
-        var x = document.getElementById(elementId);
-        if (x.style.display === "none") {
-            x.style.display = "block";
-        } else {
-            x.style.display = "none";
-        }
-    }
-</script>
 {% endif %}
