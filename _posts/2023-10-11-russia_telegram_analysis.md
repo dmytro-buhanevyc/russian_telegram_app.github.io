@@ -31,6 +31,14 @@ image: cards.jpg
 <div class="wide-iframe-container">
     <iframe src="{{site.baseurl}}/visualizations/2023-10-11/fig_topics_time.html" height="800"></iframe>
 </div>
+<!-- Google Translate -->
+<div id="google_translate_element"></div>
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 <h2>Cluster Text</h2>
 <!-- Dropdown to select a cluster -->
 <select id="clusterSelector" onchange="displayClusterText()">
