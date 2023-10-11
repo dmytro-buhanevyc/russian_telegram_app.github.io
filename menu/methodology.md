@@ -4,9 +4,7 @@ title: Methodology
 permalink: /methodology
 ---
 
-Methodology
-
-Our analysis begins with the systematic scraping of designated Telegram channels to gather relevant data. Once this raw data is procured, it undergoes preprocessing to ensure its relevance and integrity.
+Our Telegram data analysis begins with the systematic scraping of designated Telegram channels to gather relevant data. Once this raw data is procured, it undergoes preprocessing to ensure its relevance and integrity.
 
 The next phase involves the application of clusterization algorithms to group similar data, ensuring that related information is categorized correctly. A vital component of this process is the utilization of the spatial clustering algorithm to group similar texts, chosen for its proficiency in identifying clusters of varying shapes and sizes in large datasets.
 
