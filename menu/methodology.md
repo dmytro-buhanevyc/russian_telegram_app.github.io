@@ -19,8 +19,6 @@ The next phase involves the application of clusterization algorithms to group si
 <img src='https://i.pinimg.com/originals/bb/3d/5e/bb3d5e522cbcb2dd07a81f8118de2041.gif' alt='DBSCAN visualization' />
 
 
-
-
 For topic modeling, we employ a combination of n-grams and more advanced Natural Language Processing techniques. This allows us to discern overarching themes and recurring topics within the vast volume of content generated in Telegram channels.
 
 Additionally, sentiment analysis techniques are deployed to gauge the tone and sentiment of the content.
