@@ -4,7 +4,7 @@ title: "Russia Telegram Analysis - 2023-10-12"
 author: "Dmytro Bukhanevych"
 categories: analysis
 tags: [telegram, analysis]
-image: pawel-czerwinski-e_Jx2K_hIpk-unsplash.jpg
+image: cards.jpg
 permalink: "/analysis/russia-telegram-analysis-2023-10-12"
 ---
 <style>
@@ -27,7 +27,7 @@ permalink: "/analysis/russia-telegram-analysis-2023-10-12"
     }
 </style>
 <h2>Main Topics</h2>
-<p>A total of 9483 Telegram posts were analyzed during the period from October 10, 2023 to October 11, 2023. 107 most subscribed Telegram channels in Russia were monitored. During this reporting period 3191 posts matched our keywords.</p>
+<p>A total of 9483 Telegram posts were analyzed during the period from October 10, 2023 to October 11, 2023. 107 most subscribed Telegram channels in Russia were monitored. After preprocessing 3191 posts matched keywords defined by our analysts, which were further filtered to reduce noise.</p>
 <!-- Embedding Main Plotly Visualization -->
 <div class="wide-iframe-container">
     <iframe src="{{site.baseurl}}/visualizations/2023-10-12/fig_topics_time.html" height="800"></iframe>
