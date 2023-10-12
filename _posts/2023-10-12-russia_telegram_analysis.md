@@ -5,6 +5,7 @@ author: "Dmytro Bukhanevych"
 categories: analysis
 tags: [telegram, analysis]
 image: pawel-czerwinski-e_Jx2K_hIpk-unsplash.jpg
+permalink: "/analysis/:title"
 ---
 <style>
     /* Adjusting iframe-container styles */
