@@ -38,26 +38,14 @@ permalink: "/analysis/russia-telegram-analysis-2023-10-12"
 <select id="clusterSelector" onchange="displayClusterText()">
 
 </select>
+<!-- Button to toggle the display -->
+<button onclick="displayClusterText()">Display Cluster Text</button>
 <!-- Display area for the selected cluster's text -->
 <div id="clusterTextDisplay" class="hidden"></div>
+...
 <script type="text/javascript">
     var clusterDetails = JSON.parse('{}');
     function displayClusterText() {
-        var selectedLabel = document.getElementById("clusterSelector").value;
-        var details = clusterDetails[selectedLabel];
-        var textDiv = document.getElementById("clusterTextDisplay");
-        // Construct the HTML content based on the details
-        var htmlContent = '';
-        htmlContent += '<p>Total Posts: ' + details['Total posts'] + '</p>';
-        htmlContent += '<p>Date: ' + details['Date'] + '</p>';
-        htmlContent += '<p>Author: ' + details['Author'] + '</p>';
-        htmlContent += '<p>Link: <a href="' + details['Link'] + '">Link</a></p>';
-        htmlContent += '<p>Subscribers: ' + details['Subscribers'] + '</p>';
-        htmlContent += '<p>Text: ' + details['Text'] + '</p>';
-        if ('Translation' in details) {
-            htmlContent += '<p>Translation: ' + details['Translation'] + '</p>';
-        }
-        textDiv.innerHTML = htmlContent;
-        textDiv.classList.remove('hidden');
+        ...
     }
 </script>
