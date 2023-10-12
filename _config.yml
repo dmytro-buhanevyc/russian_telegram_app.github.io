@@ -24,7 +24,6 @@ title:		           'Telegram Analysis Page'
 description:	       'conducted by TCA team'
 author:              'Dmytro'
 baseurl: "/russian_telegram_app.github.io"
-permalink: /:year-:month-:day-:title/
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:
