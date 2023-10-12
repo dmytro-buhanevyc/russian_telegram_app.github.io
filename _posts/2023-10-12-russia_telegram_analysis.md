@@ -46,7 +46,17 @@ permalink: "/analysis/russia-telegram-analysis-2023-10-12"
         var selectedLabel = document.getElementById("clusterSelector").value;
         var details = clusterDetails[selectedLabel];
         var textDiv = document.getElementById("clusterTextDisplay");
-        textDiv.innerHTML = '<p>' + details + '</p>';
+        // Construct the HTML content based on the details
+        var htmlContent = `
+            <p>Total Posts: $21</p>
+            <p>Date: $2023-10-11 13:55:43+03:00</p>
+            <p>Author: $yurasumy</p>
+            <p>Link: <a href="$https://t.me/s/yurasumy/10993">Link</a></p>
+            <p>Subscribers: $2760000</p>
+            <p>Text: $🇺🇸🇺🇦 США выделят Украине новый пакет помощи на 200 миллионов долларов, в него войдут артиллерийские боеприпасы — глава Пентагона ОстинНа фоне выделения Израилю аж 2 млрд долларов на ПВО США, видимо, пытаются успокоить истерящего Зеленского подачками из остатков бюджета Пентагона.Осташко! Важное - подпишись</p>
+            <p>Translation: $🇺🇸🇺🇦 The United States will allocate a new aid package of $200 million to Ukraine, which will include artillery ammunition - Pentagon head Austin Against the backdrop of allocating $2 billion to Israel, US air defense is apparently trying to calm the hysterical Zelensky with handouts from the remains of the Pentagon budget. Ostashko! Important - subscribe</p>
+        `;
+        textDiv.innerHTML = htmlContent;
         textDiv.classList.remove('hidden');
     }
 </script>
