@@ -5,7 +5,7 @@ author: "Dmytro Bukhanevych"
 categories: analysis
 tags: [telegram, analysis]
 permalink: "/analysis/russia-telegram-analysis-2023-10-11"
-image: cards.jpg
+image: daniel-olah-VS_kFx4yF5g-unsplash.jpg
 ---
 <style>
     /* Adjusting iframe-container styles */
