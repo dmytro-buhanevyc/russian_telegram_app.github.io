@@ -33,19 +33,19 @@ permalink: "/analysis/russia-telegram-analysis-2023-10-12"
     <iframe src="{{site.baseurl}}/visualizations/2023-10-12/fig_topics_time.html" height="850"></iframe>
 </div>
 <h2>Cluster Text</h2>
-<p>Select a cluster to view the most representative post of the topic. Details on how the 'central' post is selected can be viewed in Methodology</p>
 <!-- Dropdown to select a cluster -->
 <select id="clusterSelector" onchange="displayClusterText()">
 
 </select>
-<!-- Button to toggle the display -->
-<button onclick="displayClusterText()">Display Cluster Text</button>
 <!-- Display area for the selected cluster's text -->
 <div id="clusterTextDisplay" class="hidden"></div>
-...
 <script type="text/javascript">
-    var clusterDetails = JSON.parse('{}');
+    var clusterDetails = {};
     function displayClusterText() {
-        ...
+        var selectedLabel = document.getElementById("clusterSelector").value;
+        var details = clusterDetails[selectedLabel];
+        var textDiv = document.getElementById("clusterTextDisplay");
+        textDiv.innerHTML = '<p>' + details + '</p>';
+        textDiv.classList.remove('hidden');
     }
 </script>
