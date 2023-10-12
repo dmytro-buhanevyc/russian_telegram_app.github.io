@@ -10,7 +10,7 @@ Our Telegram data analysis begins with the systematic scraping of designated Tel
 <style>
 .wide-iframe-container {
     width: calc(100% + 20vw);  /* Reduced extra width */
-    margin-left: 0 auto;  /* Adjusted margin-left to shift container to the left */
+    margin-left: -2vw;  /* Adjusted margin-left to shift container to the left */
     overflow: hidden;  /* Hide overflow */
 }
 
