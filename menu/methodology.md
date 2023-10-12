@@ -8,11 +8,16 @@ Our Telegram data analysis begins with the systematic scraping of designated Tel
 
 
 
-<!-- Embedding Main Plotly Visualization -->
 <style>
 .wide-iframe-container {
     width: calc(100% + 30vw);  /* Increase width */
-    margin-left: -15vw;  /* Adjust margin to center */
+    margin: 0 auto;  /* Center the container */
+    overflow: hidden;  /* Hide overflow */
+}
+
+.wide-iframe-container iframe {
+    display: block;  /* Block display */
+    margin: 0 auto;  /* Center iframe within container */
 }
 </style>
 
