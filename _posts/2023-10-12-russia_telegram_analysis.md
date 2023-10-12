@@ -30,7 +30,7 @@ permalink: "/analysis/russia-telegram-analysis-2023-10-12"
 <p>A total of 9483 Telegram posts were analyzed during the period from October 10, 2023 to October 11, 2023. 107 most subscribed Telegram channels in Russia were monitored. After preprocessing 3191 posts matched keywords defined by our analysts, which were further filtered to reduce noise.</p>
 <!-- Embedding Main Plotly Visualization -->
 <div class="wide-iframe-container">
-    <iframe src="{{site.baseurl}}/visualizations/2023-10-12/fig_topics_time.html" height="800"></iframe>
+    <iframe src="{{site.baseurl}}/visualizations/2023-10-12/fig_topics_time.html" height="850"></iframe>
 </div>
 <h2>Cluster Text</h2>
 <p>Select a cluster to view the most representative post of the topic. Details on how the 'central' post is selected can be viewed in Methodology</p>
