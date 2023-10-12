@@ -5,7 +5,7 @@ author: "Dmytro Bukhanevych"
 categories: analysis
 tags: [telegram, analysis]
 image: pawel-czerwinski-e_Jx2K_hIpk-unsplash.jpg
-permalink: "/analysis/:title"
+permalink: "/analysis/russia-telegram-analysis-2023-10-12"
 ---
 <style>
     /* Adjusting iframe-container styles */
