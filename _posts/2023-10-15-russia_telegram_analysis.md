@@ -4,7 +4,7 @@ title: "Russia Telegram Analysis - 2023-10-15"
 author: "Dmytro Bukhanevych"
 categories: analysis
 tags: [telegram, analysis]
-image: daniel-olah-KDCzAGuf0e8-unsplash.jpg
+image: cards.jpg
 permalink: "/analysis/russia-telegram-analysis-2023-10-15"
 ---
 <style>
