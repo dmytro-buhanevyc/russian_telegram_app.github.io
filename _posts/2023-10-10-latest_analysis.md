@@ -4,7 +4,7 @@ title: "Russia Telegram Analysis - Test Page"
 author: "Dmytro Bukhanevych"
 categories: analysis
 tags: [telegram, analysis]
-image: cards.jpg
+image: daniel-olah-VS_kFx4yF5g-unsplash (1).jpg
 #permalink: "/analysis/russia-telegram-analysis-2023-10-12"
 ---
 <style>
