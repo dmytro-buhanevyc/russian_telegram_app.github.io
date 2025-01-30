@@ -21,7 +21,7 @@ plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-t
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           'Telegram Analysis Page'
-description:	       'conducted by TCA team'
+description:	       'conducted by Dmytro Bukhanevych'
 author:              'Dmytro'
 baseurl: "/russian_telegram_app.github.io"
 
